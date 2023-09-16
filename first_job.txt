@@ -1,2 +1,11 @@
-srikanthsriaadhya
-sriaadhya
+create warehouse compute_wh;
+use role accountadmin;
+create database edw_dev;
+create database nps_dev;
+create database ps_dev;
+
+
+create schema edw_dev.aes;
+create schema nps_dev.recruitment;
+create schema ps_dev.recruitment;
+
