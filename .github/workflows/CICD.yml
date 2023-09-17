@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  PROD_DEPLOYE_JOB -on :
+  PROD_DEPLOYE_JOB  :
     runs-on: ubuntu-latest
 
     steps:
